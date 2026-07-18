@@ -58,7 +58,7 @@ return ()=>socket?.off("newMessage")
 },[messages,setMessages])
  
   return (
-    <div className={`lg:w-[70%] relative   ${selectedUser?"flex":"hidden"} lg:flex  w-full h-full bg-slate-200 border-l-2 border-gray-300 overflow-hidden`}>
+<div className={`lg:w-[70%] relative   ${selectedUser?"flex":"hidden"} lg:flex  w-full h-full bg-gray-100 border-l-2 border-gray-300 overflow-hidden`}>
       
 {selectedUser && 
 <div className='w-full h-[100vh] flex flex-col overflow-hidden gap-[20px] items-center'>
